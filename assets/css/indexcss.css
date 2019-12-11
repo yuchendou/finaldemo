@@ -89,3 +89,151 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+.advborder{
+  border-style: dashed;
+      border-color: #E8D874;
+            border-radius: 20px;
+            height: 500px;
+      width: 100%;
+}
+.productsborder{
+    border-style: dashed;
+      border-color: #E8D874;
+            border-radius: 20px;
+            height: 750px;
+      width: 100%;
+}
+
+.boxx {
+  width: 350px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border:2px solid black ;
+  padding:5px;
+background:#ECF0F1 ;
+}
+.boxx img {  
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s;
+  z-index: 3;
+
+}
+
+.boxx:hover img {
+  transform: scale(1.2);
+}
+
+.boxx:hover .boxx-hover-text {
+  display: block;
+}
+
+.boxx .boxx-hover-text {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  left: 0;
+  top: 0;
+  display: none;
+  background-color: rgba(0,0,0, 0.7);
+}
+
+.boxx .boxx-body {
+  color: #fff;
+}
+
+p.boxx-body {
+  padding: 15px;
+  line-height: 1.8em;
+  text-align: center;
+  font-size:25px;
+}
+.clothposition1{
+  position: absolute;
+  top:0px;
+  right:50%;
+  left: 35%;
+
+  z-index: 99;
+}
+.clothposition2{
+  position: absolute;
+  top:0px;
+  right:50%;
+  left: 70%;
+
+  z-index: 99;
+}
+
+.boxxb {
+  width: 450px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border:2px solid black ;
+  padding:5px;
+background:#ECF0F1 ;
+}
+.boxxb img {  
+  display: block;
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s;
+  z-index: 3;
+
+}
+
+.boxxb:hover img {
+  transform: scale(1.2);
+}
+
+.boxxb:hover .boxxb-hover-text {
+  display: block;
+}
+
+.boxxb .boxxb-hover-text {
+  width: 100%;
+  height: 100%;
+  position: absolute; 
+  left: 0;
+  top: 0;
+  display: none;
+  background-color: rgba(0,0,0, 0.7);
+}
+
+.boxxb .boxxb-body {
+  color: #fff;
+}
+
+p.boxxb-body {
+  padding: 15px;
+  line-height: 1.8em;
+  text-align: center;
+  font-size:25px;
+}
+
+.clothposition3{
+  position: absolute;
+  top:300px;
+  right:50%;
+  left: 5%;
+
+  z-index: 99;
+}
+
+.clothposition4{
+  position: absolute;
+  top:300px;
+  right:50%;
+  left: 52%;
+  z-index: 99;
+}
+.button1{position: absolute;
+  left: 40%;
+width: 200px;
+height: 55px
+
+}
