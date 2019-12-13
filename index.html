@@ -27,11 +27,11 @@
 											<li><a href="hot.html">Hot</a></li>
 											<li><a href="hot.html#new">New</a></li>
 											<li class="hassubs">
-												<a href="categories.html">Food</a>
+												<a href="food.html">Food</a>
 												<ul>
-													<li><a href="categories.html" style="white-space:nowrap">cat food</a></li>
-													<li><a href="categories.html" style="white-space:nowrap">dog food</a></li>
-													<li><a href="categories.html" style="white-space:nowrap">oth food</a></li>
+													<li><a href="food.html#catfood" style="white-space:nowrap">cat food</a></li>
+													<li><a href="food.html#dogfood" style="white-space:nowrap">dog food</a></li>
+													<li><a href="food.html#otherfood" style="white-space:nowrap">oth food</a></li>
 												</ul>
 											</li>
 											<li class="hassubs">
@@ -86,27 +86,31 @@
 				<div class="owl-carousel owl-theme home_slider">
 					
 				</div>
-				<div class="slideshow-container">
-	
-					<div class="mySlides ">
-						<div class="numbertext">1 / 2</div>
-						<img src="images/picdog1.jpg" style="width:100%">
-						<div class="button text button_light button1" ><a href="#">Shop Now</a></div>
+				
+				<div class="gallerycontainer sliderbody">
+					<div class="slideshowcontainer">
+						<div id="playpbutton"onclick="playpauseslides()" ></div>
+						<div class="leftarrow"onclick="plusSlides(1)"><span class="arrow arrowleft"></span></div>
+						<div class="rightarrow" onclick="plusSlides(-1)" ><span class="arrow arrowright"></span></div>
+						<div class="captionholder"><p class="captiontext">caption text</p></div>
+						<div class="imageholder">
+							<img src="images/searchcat.jpg">
+							<p class="captiontext">test1</p>
+						</div>
+						<div class="imageholder">
+							<img src="images/searchdog.jpg">
+							<p class="captiontext">test2</p>
+						</div>
+						<div class="imageholder">
+							<img src="images/search1.png">
+							<p class="captiontext">test3</p>
+						</div>	
 					</div>
-					<div class="mySlides ">
-						<div class="numbertext">2 / 2</div>
-						<a href="categories.html"><img src="images/picdog3.png" style="width:100%">
-						<div class="text">SEE MORE</div></a>
-					</div>
-					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-					<a class="next" onclick="plusSlides(1)">&#10095;</a>
-				</div>
-				<br>
-				<div style="text-align:center">
-					<span class="dot" onclick="currentSlide(1)"></span>
-					<span class="dot" onclick="currentSlide(2)"></span>
+					<div id="dotscontainer"></div>
+				</div>					
 
-				</div>
+
+
 			</div>
 		</div>
 		<!-- Ads -->
