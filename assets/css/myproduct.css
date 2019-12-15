@@ -1,17 +1,15 @@
-input.number {
-    display: inline-block;
-    width: 72px;
-    height: 20px;
-    text-align: center;
-    line-height: 20px;
-    background-image: url(images/number1.png);
-    background-repeat: no-repeat;
-    background-size: 72px 20px;
-    border: none;
-    cursor: pointer;
+.cartborder{
+    border-style: dashed;
+      border-color: #E8D874;
+            border-radius: 20px;
+    height: auto;
+      width: 100%;
 }
 
-    input.number:focus {
-        background-image: url(images/number2.png);
-        border: none;
-    }
+.cartproductborder{
+    border-style: dashed;
+      border-color: #E8D874;
+            border-radius: 20px;
+            height: auto;
+      width: 100%;
+}
