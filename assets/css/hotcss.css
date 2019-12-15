@@ -5,15 +5,36 @@
       width: 100%;
 
 }
+.reproductborder{
+border-style: dashed;
+      border-color: #E8D874;
+            border-radius: 20px;
+            height: 750px;
+      width: 100%;
+}
+
 .productposition{
 	position: absolute;
   top:0px;
   right:50%;
   left: 35%;
 }
+.productposition0{
+  position: absolute;
+  top:0px;
+
+  left: 0%;
+
+}
 .productposition1{ 
 	position: absolute;
   top:0px;
+  right:50%;
+  left: 70%;
+}
+.productposition11{ 
+  position: absolute;
+  top:90px;
   right:50%;
   left: 70%;
 }
