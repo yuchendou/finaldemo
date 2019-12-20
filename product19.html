@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Product</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link href="assets/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="assets/css/product.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/product_responsive.css">
+		<style>
+					@import url("assets/css/hotcss.css");
+					@import url("assets/css/productcss.css");
+		</style>
+	</head>
+	<body>
+		<div class="super_container">
+			<!-- Header -->
+			<header class="header">
+				<div class="header_container">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<div class="header_content d-flex flex-row align-items-center justify-content-start">
+									<div class="logo"><a href="index.html"><img src="images/logo1.png"></a></div>
+									<nav class="main_nav">
+										<ul>
+											<li><a href="hot.html">Hot</a></li>
+											<li><a href="hot.html#new">New</a></li>
+											<li class="hassubs">
+												<a href="food.html">Food</a>
+												<ul>
+													<li><a href="food.html#catfood" style="white-space:nowrap">cat food</a></li>
+													<li><a href="food.html#dogfood" style="white-space:nowrap">dog food</a></li>
+													<li><a href="food.html#otherfood" style="white-space:nowrap">oth food</a></li>
+												</ul>
+											</li>
+											<li class="hassubs">
+												<a href="otherthing.html">Other</a>
+												<ul>
+													<li><a href="otherthing.html#outproduct"> Carriers</a></li>
+													<li><a href="otherthing.html#clothproduct"> Cloth</a></li>
+													<li><a href="otherthing.html#toyproduct"> Toy</a></li>
+													<li><a href="otherthing.html#otherproduct"> Other</a></li>
+												</ul>
+											</li>
+											
+											<li>
+												<div class="box">
+													<div class="container-1">
+														<span class="icon"><i class="fa fa-search"></i></span>
+														<input type="search" id="search" placeholder="Search..." />
+													</div>
+												</div>
+											</li>
+										</ul>
+									</nav>
+									<div class="header_extra ml-auto">
+										<div class="shopping_cart">
+											<a href="cart.html">
+												
+												<div>Cart <span>(0)</span></div>
+											</a>
+										</div>
+										<div class="search">
+											<div class="search_icon">
+												<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+													viewBox="0 0 475.084 475.084" style="enable-background:new 0 0 475.084 475.084;"
+													xml:space="preserve">
+													
+												</svg>
+												<a href="signin.html"><img src="images/user.svg" alt=""></a>
+											</div>
+											
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+		</div>
+		<br>
+		<br>
+		<br>
+		
+		<!-- Product Details -->
+		<div class="product_details">
+			<div class="container">
+				<div class="row details_row">
+					<!-- Product Image -->
+					<div class="col-lg-6">
+						<div class="details_image">
+							<div class="details_image_large"><img src="images/othproduct5.png" alt=""><div class="product_extra "></div></div>
+							<div class="details_image_thumbnails d-flex flex-row align-items-start justify-content-between">	
+								<div class="details_image_thumbnail" data-image="images/othproduct4-1.jpg"><img src="images/othproduct4-1.jpg" alt=""></div>
+								<div class="details_image_thumbnail" data-image="images/othproduct4-2.jpg"><img src="images/othproduct4-2.jpg" alt=""></div>
+								<div class="details_image_thumbnail" data-image="images/othproduct4-3.jpg"><img src="images/othproduct4-3.jpg" alt=""></div>
+								<div class="details_image_thumbnail" data-image="images/othproduct5.png"><img src="images/othproduct5.png" alt=""></div>
+							</div>
+						</div>
+					</div>
+					<!-- Product Content -->
+					<div class="col-lg-6">
+						<div class="details_content">
+							<div class="details_name">pidan | 狗廁所 - 回字款</div>
+							<div class="details_discount">$1000</div>
+							<div class="details_price">$950</div>
+							<!-- In Stock -->
+							<div class="in_stock_container">
+								<div class="availability">Availability:</div>
+								<span>In Stock</span>
+							</div>
+							<div class="details_text">
+									<p>◆獨有的“回字形長條紋”柵格面板<br>  
+								   ◆易開合設計&nbsp;單手掀起即可更換<br>
+								   ◆不易卡異物 清洗更方便<br>  
+								   ◆中小型犬室內訓導如廁新選擇<br>
+								   ◆ 商品規格:重量：2200g&nbsp;材質：ABS、矽膠<br> &emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;尺寸：610x610x68mm<br>
+
+
+								</p>
+							</div>
+							<!-- Product Quantity -->
+							<div class="product_quantity_container">
+								<div class="product_quantity clearfix">
+									<span>Qty</span>
+									<input id="quantity_input" type="text" pattern="[0-9]*" value="1">
+									<div class="quantity_buttons">
+										<div id="quantity_inc_button" class="quantity_inc quantity_control"><i class="fa fa-chevron-up" aria-hidden="true"></i></div>
+										<div id="quantity_dec_button" class="quantity_dec quantity_control"><i class="fa fa-chevron-down" aria-hidden="true"></i></div>
+									</div>
+								</div>
+							</div>
+							<br>
+							<div><button type="button" class="btn btn-outline-warning btn-lg">Add to cart</button></div>
+							<!-- Share -->
+							<div class="details_share">
+								<span>Share:</span>
+							</div>
+							<a href="http://line.naver.jp/R/msg/text/?LINE%E3%81%A7%E9%80%81%E3%82%8B%0D%0Ahttp%3A%2F%2Fline.naver.jp%2F"><img src="images/linea.png" width="[按鍵的寬度]" height="[按鍵的高度]" alt="用LINE傳送" /></a>
+						</div>
+					</div>
+				</div>
+
+				<br>
+				<br>
+
+
+		<!-- Products -->
+		<div class="products reproductborder">
+			<div class="container">
+				<div class="row">
+					<div class="col text-center">
+						<div class="products_title">Related Products<br><br></div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col">
+						
+						<!-- Product -->
+						<div class="product productposition0 price">
+							<div class="boxx ">
+								<img src="images/outproduct1.png" >
+								<div class="boxx-hover-text">
+									<p class="boxx-body"><a href="categories.html">加入購物車</a></p>
+								</div>
+							</div>
+							<div class="product_title"><a href="product1.html">Pet Toy</a></div>
+							<div class="product_price">$2980</div>
+						</div>
+					</div>
+					<!-- Product -->
+					<div class="product productposition price">
+						<div class="boxx ">
+							<img src="images/outproduct3.jpg" >
+							<div class="boxx-hover-text">
+								<p class="boxx-body"><a href="categories.html">加入購物車</a></p>
+							</div>
+						</div>
+						<div class="product_title"><a href="product3.html">Pet Toy</a></div>
+						<div class="product_price">$1590</div>
+					</div>
+				</div>
+				<!-- Product -->
+				<div class="product productposition11 price">
+					<div class="boxx ">
+						<img src="images/outproduct4.jpg" >
+						<div class="boxx-hover-text">
+							<p class="boxx-body"><a href="categories.html">加入購物車</a></p>
+						</div>
+					</div>
+					<div class="product_title"><a href="product4.html">Pet Toy</a></div>
+					<div class="product_price">$1880</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+</div>
+</div>
+<!-- Newsletter -->
+<div class="newsletter">
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<div class="newsletter_border"></div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-8 offset-lg-2">
+			<div class="newsletter_content text-center">
+				<div class="newsletter_title">Subscribe to our newsletter</div>
+				<div class="newsletter_text"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam a ultricies metus. Sed nec molestie eros</p></div>
+				<div class="newsletter_form_container">
+					<form action="#" id="newsletter_form" class="newsletter_form">
+						<input type="email" class="newsletter_input" required="required">
+						<button class="newsletter_button trans_200"><span>Subscribe</span></button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+<!-- Footer -->
+
+<div class="footer_overlay"></div>
+<footer class="footer">
+<div class="footer_background" style="background-image:url(images/footerpets1.png)"></div>
+<div class="container">
+	<div class="row">
+		<div class="col">
+			<div class="footer_content d-flex flex-lg-row flex-column align-items-center justify-content-lg-start justify-content-center">
+				<div class="footer_logo"><a href="index.html">PET STORE </a></div>
+				<div class="copyright ml-auto mr-auto">
+					Copyright © 2019 Yuchen wu Inc. All rights reserved by <a href="index.html" target="_blank"><img src="images/logo1.png"></a>
+				</div>
+				<div class="footer_social ml-lg-auto">
+					<ul>
+						<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</footer>
+</div>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/product.js"></script>
+</body>
+</html>
