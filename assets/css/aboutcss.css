@@ -1,0 +1,73 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 微軟正黑體;
+
+}
+.team-section
+{
+overflow: hidden;
+text-align: center;
+padding: 60px;
+
+}
+.team-section h1
+{
+text-transform: uppercase;
+margin-bottom: 30px;
+color:black;
+font-size: 40px;
+}
+.borderaa
+{
+
+display: block;
+margin:auto;
+width: 160px;
+height: 3px;
+background: orange;
+margin-bottom: 20px;
+}
+.ps{
+	margin-bottom: 40px;
+}
+.ps a{
+	display: inline-block;
+	margin:0 5px;
+	width:220px;
+	height: 140px;
+	overflow: hidden;
+	border-radius: 20%;
+}
+.ps a img{
+	width: 100%;
+	filter: grayscale(30%);/*要不要先黑白*/
+	transition: 0.1s all;
+}
+.ps a:hover >img{
+	filter: none;
+}
+.section{
+	width: 600px;
+	margin:auto;
+	margin-bottom: 0px;
+	font-size: 40px;
+	color:black;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+.section:target{height: auto;
+
+}
+.name{
+	display: block;
+	margin-top:-15px;
+	margin-bottom: 5px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.section p{
+	font-size: 20px;
+
+}
