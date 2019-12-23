@@ -1,0 +1,59 @@
+.formposition{
+
+margin: 0;
+padding: 0;
+
+
+}
+.signupform{
+  width: 500px;
+  box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+  background-color: #fff;
+  margin: 10.4% auto 0;
+  text-align: center;
+}
+.signupform h1{
+
+  margin-bottom: 30px;
+}
+.inputbox{
+  border-radius: 200px;
+  padding:10px;
+  margin: 10px 0;
+  width: 90%;
+  border: 1px solid #999;
+  outline: none;
+}
+.inputbox1{
+  border-radius: 200px;
+  padding:10px;
+  margin: 10px 0;
+  width: 45%;
+  border: 1px solid #999;
+  outline: none;
+}
+
+button{
+  color:#fff;
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin:10px 0;
+  border:none;
+  outline: none;
+  cursor: pointer;
+}
+.signupbutton{
+  background-color: #1c8adb;
+
+}
+hr{
+  margin-top: 20px;
+  width: 90%;
+}
+.or{
+  background-color: #fff;
+  width: 30px;
+  margin: -5px auto 10px;
+}
