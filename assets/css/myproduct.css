@@ -1,6 +1,6 @@
 .cartborder{
     border-style: dashed;
-      border-color: #E8D874;
+      border-color: white;
             border-radius: 20px;
     height: auto;
       width: 100%;
@@ -8,7 +8,7 @@
 
 .cartproductborder{
     border-style: dashed;
-      border-color: #E8D874;
+      border-color: #E8D874 white white white;
             border-radius: 20px;
             height: auto;
       width: 100%;
